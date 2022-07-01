@@ -1,0 +1,9 @@
+numpy
+psutil
+opencv-python
+simplejson
+cython
+scikit-learn
+pandas
+torch==1.9.0+cu102
+torchvision==0.10.0+cu102
