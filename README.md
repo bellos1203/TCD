@@ -13,9 +13,9 @@ This repository contains implementation for the paper [__"Class-Incremental Lear
 0.Installation
 --------------
 
-        git clone https://github.com/bellos1203/TCD.git
-        cd TCD
-        pip install -r requirements.txt
+    git clone https://github.com/bellos1203/TCD.git
+    cd TCD
+    pip install -r requirements.txt
 
 
 1.Preprocessing for the videos
@@ -27,10 +27,14 @@ This repository contains implementation for the paper [__"Class-Incremental Lear
 * To reproduce the experimental results in the paper for UCF-101, please refer to the attached script files in `scripts`.
 * Other experiments can be easily reproduced with slight modifications on `run.sh` or other options in `opts.py`. 
 
+3.Evaluation
+-----------------
+* To obtain the numbers in the paper, compute average results from all 3 runs from 3 different seeds (1000, 1993, 2021).
+* Note that we only run on single seed (1000) for Something-Something V2 datasets due to the computational cost. 
 
 Citation
 --------
-If you use this code for your research, please cite our paper.
+If you use this code for your research, please cite our paper :
   ```shell
   @inproceedings{park2021class,
   title={Class-Incremental Learning for Action Recognition in Videos},
