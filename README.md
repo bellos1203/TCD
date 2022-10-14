@@ -25,7 +25,7 @@ This repository contains implementation for the paper [__"Class-Incremental Lear
 2.Run the Model
 -----------------
 * To reproduce the experimental results in the paper for UCF-101, please refer to the attached script files in `scripts`.
-* Other experiments can be easily reproduced with slight modifications on `run.sh` or other options in `opts.py`. 
+* Other experiments can be easily reproduced with slight modifications on `.sh` files in `scripts` or other options in `opts.py`. 
 
 3.Evaluation
 -----------------
